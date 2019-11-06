@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bilangan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bilangan_1" />
+
+        <EditText
+            android:id="@+id/editBilangan1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/bilangan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bilangan_2" />
+
+        <EditText
+            android:id="@+id/editBilangan2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/operasi" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupOperasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/penjumlahan" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pengurangan" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/perkalian" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pembagian" />
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonLakukan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lakukan_operasi" />
+    </LinearLayout>
